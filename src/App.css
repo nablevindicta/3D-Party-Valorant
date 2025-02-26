@@ -1,0 +1,78 @@
+/* src/App.css */
+.App {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .content form {
+    display: flex;
+  }
+  
+  .content input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+  }
