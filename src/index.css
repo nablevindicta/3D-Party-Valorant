@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Reddit Sans", serif;
+}
+
+body {
+  @apply m-0 p-0 text-white;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.section {
+  @apply h-screen p-3 flex items-center z-30 lg:justify-center
+}
+
+.section:nth-child(even) {
+  @apply justify-end lg:justify-center
+}
+
+.content {
+  @apply flex flex-col
+}
+
+[data-scroll-container] {
+  overflow: hidden;
+}
+
+[data-scroll-section] {
+  position: relative;
+  z-index: 1;
+}
